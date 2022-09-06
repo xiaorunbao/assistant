@@ -1,0 +1,14 @@
+# 根据 editorconfig配置
+root = true
+# 使用Unix风格的换行符标记换行，并自动在每个文件末插入一个空行
+[*]
+end_of_line = lf
+insert_final_newline = true
+# 匹配多种指定格式的文件
+# 设置默认字符集
+[*.{js,html,css}]
+charset = utf-8
+ #w 设置缩进格式
+ [*.js]
+ indent_style = space
+ indent_size = 4

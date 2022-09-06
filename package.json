@@ -1,0 +1,27 @@
+{
+  "name": "assistant",
+  "version": "1.0.0",
+  "description": "get ip of windows",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaorunbao/assistant.git"
+  },
+  "keywords": [
+    "portal",
+    "assist"
+  ],
+  "author": "rainbow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaorunbao/assistant/issues"
+  },
+  "homepage": "https://github.com/xiaorunbao/assistant#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-router": "^12.0.0"
+  }
+}
